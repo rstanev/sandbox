@@ -73,7 +73,8 @@ ax.set_xticklabels( (event1, event2) )
 
 ax.legend( (rects1[0], rects2[0]), (drugname1, drugname2) )
 
-plt.show()
+# plt.show()
+plt.savefig('fdaOpen_incubator_fig_01.png')
 
 events=['FLUSHING', 'DYSPNOEA', 'FATIGUE', 'NAUSEA', 'PAIN', 'DIZZINESS', 'ASTHENIA', 'MYOCARDIAL INFARCTION', 'DIARRHOEA', 'PRURITUS', 'HEADACHE', 'CHEST PAIN', 'DRUG INEFFECTIVE', 'VOMITING']
 
@@ -102,7 +103,9 @@ axes[1].set_title(drugname2, fontsize=30)
 
 plt.suptitle('Event counts for drugs', fontsize=30)
 
-plt.show()
+# plt.show()
+plt.savefig('fdaOpen_incubator_fig_02.png')
+
 
 # Discarded code
 
